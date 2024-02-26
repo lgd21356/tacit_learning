@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -fPIC  -rdynamic CMakeFiles/lcm_position.dir/examples/lcm_position.cpp.o  -o lcm_position  -L/home/quadruped/unitree_legged_sdk_a1/lib -Wl,-rpath,/home/quadruped/unitree_legged_sdk_a1/lib -pthread -lunitree_legged_sdk_arm64 -llcm 

@@ -1,0 +1,8 @@
+struct optitrack_lcmt
+{
+    float target_pos[2];
+    float target_yaw;
+    float time;
+    float pos[3];
+    float rot[3];
+}

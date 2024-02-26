@@ -1,0 +1,10 @@
+struct logger_lcmt
+{
+    float time;
+    float joint_positions[12];
+    float joint_torques[12];
+    float joint_velocities[12];
+    float contact_forces[4];
+    float output_torques[12];
+    float tacit_torques[12];
+}
